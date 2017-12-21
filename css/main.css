@@ -1,0 +1,88 @@
+
+.navtop .name {
+    
+    text-align: center;
+}
+
+.navtop .name h1 {
+    
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.navbar .navbar-nav .nav-item {
+    
+    margin-left: 40px;
+    font-weight: bold;
+        
+}
+
+.slide .row2 {
+    
+    margin-top: 20px;
+}
+
+
+.contact {
+    
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ab {
+    margin-top: 50px;
+}
+.ab-txt {
+    
+    
+    padding: 0 70px
+}
+
+
+.culinary {
+    
+    margin-top: 50px;
+}
+
+.culinary img{
+    
+    margin-top: 30px;
+}
+
+.culinary h4{
+    margin-top: 30px;
+    line-height: 3;
+}
+
+
+.cosmetic {
+    
+    margin-top: 50px;  
+}
+
+.cosmetic .txt-cos h4{
+    
+    line-height: 2;
+    
+}
+    
+
+.cosmetic img{
+    
+    margin-top: 30px;
+    height: 250px;
+    
+}
+
+.cosmetic h5:last-child{
+    font-weight: bold;    
+}
+
+
+footer {
+    
+    margin-top: 100px;
+    height: 300px;
+    background: #ddd;
+    
+}
