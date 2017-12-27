@@ -75,7 +75,7 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
             
-           <li class="nav-item dropdown active">
+           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Products
             </a>
@@ -88,15 +88,19 @@
             <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="tips.html">Tips</a>
+            <a class="nav-link" href="tips.html ">Tips</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact US</a>
           </li>
             
-            <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="clientsspace.html">Cliens Space</a>
           </li>
+
+            
+
+
 
         </ul>
 
@@ -105,82 +109,103 @@
 </nav>
  <!-- End NavBar --->
       
-      
       <div class="container ">
        <div class="bg-content">
            
-      <section class="cosmetic text-center">
+ <section class="login-box centered">
+
+      <div class="row">
+        <div class="col-md-8 login-sec">
+          <ul id="tabsJustified" class="nav nav-tabs">
+            <li class="nav-item"><a href="" data-target="#signin" data-toggle="tab" class="nav-link active">Login</a></li>
+            <li class="nav-item"><a href="" data-target="#signup" data-toggle="tab" class="nav-link">Create New Account</a></li>
+          </ul>
+          <br>
+          <div id="tabsJustifiedContent" class="tab-content">
+            <div id="signin" class="tab-pane fade active show">
+              <form class="login-form">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+                  <input type="password" class="form-control" placeholder="">
+                </div>
             
-            <div class="txt-cos">
-                <h2>Argan cosmetic</h2>
-                
-                <h4>L'huile cosmétique agit contre le dessèchement et le vieillissement de la peau, soigne les cheveux fragilisés, fortifie les ongles.</h4>
-
-                 <h4>on la recommande contre l'acné, les gerçures, les brûlures…</h4>
-
-                <h4>l'huile cosmétique d'argan est idéale pour les massages.</h4>
-
-                <h4>Elle existe en flacon ou en spray.
-                </h4>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <small>Remember Me</small>
+                  </label>
+                  <button type="submit" class="btn btn-success float-right">Connect</button>
+                </div>
+                <div class="form-group">
+                  <h6><a href="#">Forger your password</a></h6>
+                  <h6><a href="">Create New Account</a></h6>
+                </div>
+                  
+              </form>
             </div>
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <img src="img/cp250.PNG"  height="300">
-                    <h5>The bottle of cosmetic argan oil with pourer 250 ml: </h5>
-                    <h5>35 euros</h5>
+            <div id="signup" class="tab-pane fade">
+              <form class="login-form">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" >Family Name :</label>
+                  <input type="text" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/cp100.PNG"  height="300">
-                    <h5>The bottle of cosmetic argan oil with pourer 100 ml:</h5>
-                    <h5>15 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Frist Name :</label>
+                  <input type="text" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/cp60.PNG"  height="300">
-                    <h5>The bottle of cosmetic argan oil with pourer 60 ml: </h5>
-                    <h5>10 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="text-uppercase">Nationnal Identity Code :</label>
+                  <input type="password" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/cp30.PNG"  height="300">
-                    <h5>The bottle of cosmetic argan oil with pourer 30 ml: </h5>
-                    <h5>5 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="text-uppercase">Passport :</label>
+                  <input type="password" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/cs100.PNG"  height="300">
-                    <h5>The spray of cosmetic argan oil with pourer 100 ml:  </h5>
-                    <h5>17 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Complet Address :</label>
+                  <input type="text" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/scp50.PNG"  height="300">
-                    <h5>The spray of cosmetic argan oil with pourer 50 ml:  </h5>
-                    <h5>12 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">E-mail :</label>
+                  <input type="text" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/scp30.png"  height="300">
-                    <h5>The spray of cosmetic argan oil with pourer 30 ml: </h5>
-                    <h5>6 euros</h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Login :</label>
+                  <input type="text" class="form-control" placeholder="">
                 </div>
-                
-                <div class="col-md-6 text-center">
-                    <img src="img/cp5_25.PNG"  height="300">
-                    <h5>Cosmetic argan oil in cans of 5 liters: </h5>
-                    <h5>Cosmetic argan oil in cans of 25 liters: </h5>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password :</label>
+                  <input type="password" class="form-control" placeholder="">
                 </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Validate Password :</label>
+                  <input type="Password" class="form-control" placeholder="">
+                </div>
+            
+                <div class="form-check">
+                  <button type="submit" class="btn btn-success float-right">Save</button>
+                </div>
+                  
+                <div class="form-group">
+                  <h6>All fields are required</h6>
+                  <h6>You must only enter [Nationnal Identity Code] Or [Passport] not both of them</h6>
+                </div>
+                  
                 
-                
-                
-            </div>  
-          
-      
-      
-      </section></div></div>
-      
-   
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    
+  </section></div></div>
 
       
       
@@ -237,7 +262,6 @@
       
        <!-- End Fooooter ---->
       
-      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -246,4 +270,4 @@
     <script src="js/bootstrap.min.js"></script>
       <script src="js/jquery.js"></script>
   </body>
-</html>
+      </html>
