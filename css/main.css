@@ -110,21 +110,39 @@ body {
     margin-top: 20px;
 }
 
+/* Start Home ------------ */
 
-.contact {
+.contact .fa {
     
-    margin-top: 40px;
-    text-align: center;
+    margin: 10px 0px
+}
+.txt-home {
+    margin: 50px;
+}
+.txt-home .txt p{
+    
+    
+    padding: 0 70px;
+    margin: 10px 0 50px 0;
+    padding: 0px 13px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: -10px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.txt-home .txt h2{  
+    
+    color: #d62300;
+    font-weight: bold;
 }
 
-.ab {
-    margin-top: 50px;
-}
-.ab-txt {
+.txt-home .txt h3{  
     
-    
-    padding: 0 70px
+    color: #006b29;
+    font-weight: 600;
 }
+
 
 
 .culinary {
@@ -166,12 +184,46 @@ body {
     font-weight: bold;    
 }
 
-/* Start Services */
 
-.service  {
+
+/* Start Culinary Argan Oil --------------------------*/
+
+.culinary h2 {
+text-shadow: 0 0 5px transparent, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFD938, 0 0 30px #FFD938, 0 0 40px #FFD938, 0 0 50px #FFD938, 0 0 75px #FFD938;
     
-    
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px 0 30px 0px;
 }
+
+/* Start Argan Cosmetic --------------------------*/
+
+.cosmetic h2 {
+text-shadow: 0 0 5px transparent, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFD938, 0 0 30px #FFD938, 0 0 40px #FFD938, 0 0 50px #FFD938, 0 0 75px #FFD938;
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px 0 30px 0px;
+
+}
+.cosmetic .prod {
+    
+    border: 1px solid #492119;
+    background: #28120d;
+    margin: 20px auto;
+    max-width: 350px;
+    min-width: 250px;
+        
+        
+}
+
+
+
+/* Start Services --------------------------*/
 
 
 .service h1 {
@@ -192,7 +244,70 @@ body {
     border-radius: 5px 
 }
 
+.service .srv h4{
+    
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.service .srv p{
+    
+    margin-top: 20px
+}
 
+
+
+/*  Start Tips --------------------------*/
+
+.tips h1 {
+    margin: 20px 0 70px 0px;
+    font-size: 30px   
+}
+
+.tips p {
+    margin: 10px 0 50px 0;
+    padding: 0px 13px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+
+/* Start contact --------------------------*/
+
+
+.contact {
+    
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact h2{
+    
+    margin: 0 0 60px 0;
+    
+}
+
+.contact .btn-success{
+    
+    padding: 5px 60px;
+    cursor: pointer;
+    
+}
+.contact .btn-danger{
+    
+    padding: 5px 30px;
+    cursor: pointer;
+    
+}
+
+.contact .conta{
+    
+    border-left: 2px solid #593030
+    
+}
 
 
 
