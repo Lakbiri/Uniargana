@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en">
+<html class="loading" lang="en">
   <head>
     <title>UNIARGANA</title>
     <!-- Required meta tags -->
@@ -19,7 +19,7 @@
       
       <!-- Start NavBar Top -->
     
-      <div class="navtop ">
+      <div class="navtop">
           <div class="container">
           
           <div class="row">
@@ -107,7 +107,7 @@
 </nav>
  <!-- End NavBar --->      
       
-   <div class="container ">
+   <div class="container">
        <div class="bg-content">
       <section class="slide">
           
@@ -267,7 +267,9 @@ Here is also the content of other elements for each 100g of argan oil: 48mg of t
             </div>
               
         </div>
-          <div class="copyright text-center wow zoomIn">
+          
+          
+          <div class="copyright text-center wow zoomIn ">
               <h6>2017 - 2018 © Uniargana MOROCCO All right reserved</h6>
           
           </div>
@@ -275,8 +277,7 @@ Here is also the content of other elements for each 100g of argan oil: 48mg of t
       </footer>
       
       
-       <!-- End Fooooter ---->
-      
+
       
 
     <!-- Optional JavaScript -->
@@ -286,6 +287,23 @@ Here is also the content of other elements for each 100g of argan oil: 48mg of t
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/wow.min.js"></script>
-      <script>new WOW().init();</script>
+     <script>new WOW().init();</script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      
+      
+      <script type="text/javascript">
+        // IE10+
+        document.getElementsByTagName( "html" )[0].classList.remove( "loading" );
+
+        // All browsers
+        document.getElementsByTagName( "html" )[0].className.replace( /loading/, "" );
+
+        // Or with jQuery
+        $( "html" ).removeClass( "loading" );
+</script>
+      
+
+      
+      
   </body>
 </html>
